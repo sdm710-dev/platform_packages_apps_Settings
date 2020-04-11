@@ -21,12 +21,12 @@
     android:key="smart_charging_screen"
     android:title="@string/smart_charging_title">
 
-    <com.aosip.settings.preference.SystemSettingSwitchPreference
+    <com.derpquest.settings.preferences.SystemSettingSwitchPreference
         android:key="smart_charging"
         android:title="@string/smart_charging_switch_title"
         android:defaultValue="false" />
 
-    <com.aosip.settings.preference.CustomSeekBarPreference
+    <com.derpquest.settings.preferences.CustomSeekBarPreference
         android:key="smart_charging_level"
         android:title="@string/smart_charging_level_title"
         android:max="100"
